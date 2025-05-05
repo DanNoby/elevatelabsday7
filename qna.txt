@@ -1,0 +1,23 @@
+Q> What is a support vector?
+A> Support vectors are the data points from the training set that lie closest to the decision boundary and significantly influence its position.
+
+Q> What does the C parameter do?
+A> The C parameter in SVM controls the penalty for misclassifying training points, balancing the trade-off between achieving a low training error and maximizing the margin.
+
+Q> What are kernels in SVM?
+A> Kernels are functions that take data as input and transform it into the desired output form, allowing SVMs to find non-linear decision boundaries by implicitly mapping data to a higher-dimensional space.
+
+Q> What is the difference between linear and RBF kernel?
+A> A linear kernel finds a straight-line decision boundary in the original feature space, while an RBF (Radial Basis Function) kernel finds a non-linear boundary by implicitly mapping data to a potentially infinite-dimensional space.
+
+Q> What are the advantages of SVM?
+A> SVMs are effective in high-dimensional spaces, memory efficient because they use a subset of training points (support vectors), and versatile with different kernels for various decision boundary shapes.
+
+Q> Can SVMs be used for regression?
+A> Yes, SVMs can be used for regression tasks using a variation called Support Vector Regression (SVR).
+
+Q> What happens when data is not linearly separable?
+A> When data is not linearly separable, SVMs use kernels to map the data into a higher-dimensional space where a linear hyperplane can separate the classes.
+
+Q> How is overfitting handled in SVM?
+A> Overfitting in SVMs is primarily handled by tuning the C parameter (which controls the regularization strength) and selecting appropriate kernel parameters like gamma for the RBF kernel.
