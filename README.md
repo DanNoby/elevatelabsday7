@@ -3,20 +3,16 @@
 The goal of this task was to use Support Vector Machines (SVMs) for binary classification on the breast cancer dataset using both linear and non-linear (RBF kernel) approaches.
 
 1. **Data Preparation**
-
    - Loaded and cleaned the breast cancer dataset.
    - Dropped non-feature columns (`id`), and used `diagnosis` as the label.
    - Encoded labels (`B` → 0, `M` → 1).
 
 2. **Model Training**
-
    - Trained two SVM models:
      - **Linear Kernel**
      - **RBF Kernel (non-linear)**
-   - Scaled features and split data into training and test sets.
 
 3. **Hyperparameter Tuning**
-
    - Performed **GridSearchCV** with cross-validation.
    - Tuned `C` and `gamma` for the RBF kernel.
 
@@ -40,19 +36,5 @@ The goal of this task was to use Support Vector Machines (SVMs) for binary class
 - **SVM Decision Boundary (RBF Kernel)**  
   ![Decision Boundary](images/2.png)
 
----
-
-## What You Learn
-
-- How to use linear and non-linear SVMs.
-- How the kernel trick enables complex decision boundaries.
-- Importance of hyperparameter tuning (`C`, `gamma`).
-- Visualization of model decisions in feature space.
-
 ## Tools & Libraries
-
-- Python
-- Scikit-learn
-- NumPy
-- Matplotlib
-- Pandas
+Python, Scikit-learn, NumPy, Matplotlib, Pandas
